@@ -1,54 +1,74 @@
-# 📈 Caderno de Investimentos para Iniciantes
-
-> Um guia prático e estruturado sobre educação financeira e primeiros passos no mundo dos investimentos, sintetizado e organizado com o auxílio da inteligência artificial **NotebookLM** (Google).
+# 📈 Caderno de Investimentos para Iniciantes (via NotebookLM)
 
 ---
 
-## 📑 Sobre o Projeto
+## 🎯 1. Contexto e Objetivos
 
-Este projeto tem como objetivo desmistificar o universo dos investimentos para quem está começando do zero. Através da curadoria e organização de conteúdos no **NotebookLM**, o caderno reúne conceitos essenciais, comparações e estratégias de forma simples, didática e direta ao ponto.
+### Assunto de Interesse
+O tema escolhido para este caderno temático é a **Educação Financeira e Investimentos para Iniciantes**. O objetivo é desmistificar o mercado financeiro para quem deseja dar os primeiros passos com segurança.
 
----
-
-## 💡 Destaques do Caderno
-
-* **Resumos Objetivos:** Explicações diretas sobre os principais conceitos do mercado financeiro.
-* **Perguntas e Respostas (FAQ):** Esclarecimentos sobre as dúvidas mais comuns de investidores iniciantes.
-* **Comparativos Práticos:** Guias visuais e conceituais para entender diferentes classes de ativos.
-* **Resumo em Áudio (*Audio Overview*):** Visão geral em áudio para fixação dos conceitos principais. *(Remova se não utilizou)*
+### Objetivos de Estudo
+- Compreender a diferença teórica e prática entre **Renda Fixa** e **Renda Variável**.
+- Entender como construir uma **Reserva de Emergência** adequada e quais ativos utilizar.
+- Mapear os conceitos-chave do mercado (Selic, CDI, IPCA, Liquidez, Rendimento Líquido vs. Bruto).
+- Utilizar a IA (NotebookLM) como assistente de estudo e síntese para estruturar um material didático reusável.
 
 ---
 
-## 🗂️ Conteúdo Coberto
+## 📚 2. Curadoria de Fontes
 
-1. **Fundamentos Financeiros:**
-   * O que é investir e por onde começar.
-   * Definição de perfil de risco (Conservador, Moderado, Arrojado).
-   * Como estruturar uma Reserva de Emergência (segurança e liquidez).
+Para garantir a acurácia do conteúdo sintetizado pelo NotebookLM, foram selecionadas e carregadas as seguintes **7 fontes abertas** em PDF e texto:
 
-2. **Renda Fixa:**
-   * Entendendo a taxa Selic, CDI e IPCA.
-   * Tesouro Direto (Selic, IPCA+, Pré-fixado).
-   * CDBs, LCIs e LCAs.
-
-3. **Renda Variável:**
-   * Conceitos básicos sobre Ações.
-   * Como funcionam os Fondos Imobiliários (FIIs) e dividendos.
-
-4. **Boas Práticas e Erros Comuns:**
-   * Diversificação de carteira.
-   * Erros mais frequentes de quem está começando e como evitá-los.
+1. *[YouTube - Curso de Investimento (Playlist)](https://www.youtube.com/playlist?list=PL-QAz5R5Rlm48QwcnzG-IUqzUT3bpyZik)*
+2. *[Análise de Investimento (PDF)](https://egov.df.gov.br/wp-content/uploads/2020/11/Analise-de-Investimentos-Material-Teorico.pdf)*
+3. *[Universidade do Sul de Santa Catarina - Análise de Investimento (PDF)](https://repositorio-api.animaeducacao.com.br/server/api/core/bitstreams/4136b636-38c9-46b7-999f-c391c78c39e1/content)*
+4. *[Introdução ao Mercado e Capitais (PDF)](https://unisalesiano.com.br/aracatuba/wp-content/uploads/2022/01/Artigo-Mercado-de-Capitais-Pronto.pdf)*
+5. *[Material de Estudo (ANBIMA) - Princípios de Investimento (PDF)](https://www.anbima.com.br/data/files/74/40/1D/33/466A4810EA926748882BA2A8/CPA-10-Cap4.pdf)*
+6. *[Programa bem-estar financeiro (CVM) - Introdução aos Investimentos](https://www.gov.br/investidor/pt-br/educacional/programa-bem-estar-financeiro/programa-bem-estar-financeiro-arquivos/apostila-06.pdf/@@display-file/file)*
+7. *[Apostila - Investimento (PDF)](https://www.harioncamargo.com/pdf/apostila_investimentos_porHarionCamargo.pdf)*
 
 ---
 
-## 🚀 Como Acessar
+## 🧠 3. Engenharia de Prompts e "Cicatrizes" (Troubleshooting)
 
-- 📁 **Documentos e Anotações:** Navegue pelos arquivos de texto disponíveis na pasta deste repositório.
-- 🎧 **Áudio Guia:** Caso tenha interesse em ouvir o resumo executivo, acesse o arquivo `audio_overview.mp3` *(se aplicável)*.
+Nesta seção está registrado o processo interativo de construção do conhecimento, as variações de prompts testadas e como os desafios foram superados.
+
+### A. Perguntas Estratégicas e Variações de Prompts
+- **Prompt V1 (Inicial):** *"Me explique o que é Renda Fixa."*
+  - *Resultado:* Resposta muito genérica e longa.
+- **Prompt V2 (Refinado):** *"Com base nos PDFs carregados, elabore uma comparação em tabela entre Tesouro Selic, CDB e LCI, destacando: liquidez, tributação e risco."*
+  - *Resultado:* Resposta precisa e orientada às fontes.
+
+### B. Cicatrizes e Troubleshooting (Dificuldades e Soluções)
+* **Desafio 1 - Alucinação ou Mistura de Termos:** A IA confundiu a tributação de LCIs/LCAs com a de CDBs nas primeiras tentativas.
+  * **Solução:** Adicionei ao prompt o comando explícito: *"Cite apenas as regras tributárias expressas nas Fontes  e destaque a isenção de IR para pessoa física nas LCIs/LCAs."*
+* **Desafio 2 - Respostas Genéricas sem Citação:**
+  * **Solução:** Passei a solicitar: *"Aponte em qual trecho ou documento das fontes você baseou cada afirmação sobre a Reserva de Emergência."*
 
 ---
 
-## 🛠️ Ferramentas Utilizadas
+## 📖 4. Miniguia de Estudo (Entrega Final)
 
-* **NotebookLM (Google):** Para sintetização de textos, criação do FAQ e geração de resumos em áudio.
-* **Markdown:** Para formatação do documento.
+### A. Resumos Estruturados do Assunto
+* **Reserva de Emergência:** Deve corresponder a 3 a 6 meses do custo de vida, alocada em ativos de altíssima liquidez (resgate diário) e baixo risco (ex: Tesouro Selic ou CDB 100% CDI).
+* **Renda Fixa:** Empréstimo de dinheiro a emissores (Governo ou Bancos) em troca de uma taxa combinada (prefixada, pós-fixada ou híbrida).
+* **Renda Variável:** Compra de frações de empresas (Ações) ou ativos imobiliários (FIIs), onde o retorno não é garantido e depende da oscilação do mercado.
+
+### B. Glossário de Conceptos Aprendidos
+| Termo | Definição Rápida |
+| :--- | :--- |
+| **Selic** | A taxa básica de juros da economia brasileira. |
+| **CDI** | Taxa que baliza os rendimentos de diversos títulos de Renda Fixa privada. |
+| **Liquidez** | A facilidade e rapidez com que um investimento pode ser convertido em dinheiro. |
+| **IPCA** | O índice oficial de inflação do Brasil. |
+| **FGC** | Fundo Garantidor de Créditos, que protege depósitos em bancos até determinados limites. |
+
+### C. Prompts Reutilizáveis (para revisões futuras)
+Você pode usar estes prompts no NotebookLM para revisões rápidas deste tema:
+
+```text
+Prompt 1 (Revisão Prática): "Elabore um quiz com 5 perguntas e respostas com justificativa técnica para testar se um iniciante entendeu a diferença entre IPCA e Selic."
+
+Prompt 2 (Análise de Perfil): "Crie um roteiro de decisão para escolher entre investir em Tesouro Direto ou CDB, baseado apenas nos documentos do repositório."
+
+Prompt 3 (Resumo Executivo): "Resuma os 3 erros mais graves que um investidor iniciante deve evitar ao construir a reserva de emergência, em formato de bullet points diretos."
